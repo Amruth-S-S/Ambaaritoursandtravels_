@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Globe, Plane, Building, Send, Clock, CheckCircle } from "lucide-react";
 import Navbar from "@/app/components/Navbar";
 import BackToTop from "../components/BackToTop";
+import Footer from "../components/Footer";
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({
@@ -106,7 +107,7 @@ export default function ContactPage() {
         <>
             <Navbar />
 
-            <main className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-24 pb-16 px-4">
+            <main className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-34 pb-16 px-4">
                 {/* Animated Background Elements */}
                 <div className="fixed inset-0 overflow-hidden pointer-events-none">
                     <motion.div
@@ -509,6 +510,7 @@ export default function ContactPage() {
                 </motion.div>
             </main>
             <BackToTop />
+            <Footer />
         </>
     );
 

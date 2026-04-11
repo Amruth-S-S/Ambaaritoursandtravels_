@@ -6,6 +6,7 @@ import { Calendar, Users, MapPin, Clock, CheckCircle, Plane, Hotel, Utensils, Ti
 import Link from "next/link";
 import Navbar from "@/app/components/Navbar";
 import BackToTop from "../components/BackToTop";
+import Footer from "../components/Footer";
 import { useSearchParams } from "next/navigation";
 
 const packages = [
@@ -680,7 +681,7 @@ export default function PackagesContent() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-24">
+      <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-30">
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0">
@@ -1061,6 +1062,7 @@ export default function PackagesContent() {
         </div>
       </div>
       <BackToTop />
+      <Footer/>
     </>
   );
 }

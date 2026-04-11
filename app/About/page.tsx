@@ -28,6 +28,7 @@ import Navbar from "../components/Navbar";
 import AnimatedImage from "../components/AnimatedImage";
 import BackToTop from "../components/BackToTop";
 import router, { useRouter } from "next/navigation";
+import Footer from "../components/Footer";
 
 export default function AboutPage() {
   const [activeTab, setActiveTab] = useState("story");
@@ -39,6 +40,22 @@ export default function AboutPage() {
     }, 500);
     return () => clearTimeout(timer);
   }, []);
+
+
+  useEffect(() => {
+  const updateNavbarHeight = () => {
+    const navbar = document.querySelector('nav'); // or whatever selector matches your Navbar
+    if (navbar) {
+      const height = navbar.offsetHeight;
+      document.documentElement.style.setProperty('--navbar-height', `${height}px`);
+    }
+  };
+  
+  updateNavbarHeight();
+  window.addEventListener('resize', updateNavbarHeight);
+  
+  return () => window.removeEventListener('resize', updateNavbarHeight);
+}, []);
 
   // Animation variants
   const containerVariants = {
@@ -356,7 +373,7 @@ const router = useRouter();
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-24 pb-16 px-4">
+         <main  className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 pt-34 pb-16 px-4">
         {/* Animated Background Elements */}
         <div className="fixed inset-0 overflow-hidden pointer-events-none">
           <motion.div
@@ -717,6 +734,7 @@ const router = useRouter();
         </div>
       </main>
       <BackToTop />
+      <Footer/>
     </>
   );
 }
