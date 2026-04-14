@@ -12,6 +12,7 @@ const quickLinks = [
   { label: "Gallery", href: "/Gallery" },
   { label: "Contact", href: "/Contact" },
   { label: "Book Now", href: "/Booking" },
+   { label: "Privacy", href: "/Privacy" },
 ];
 
 const internationalPackages = [
@@ -271,7 +272,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Ambaari Tours &amp; Travels. All rights reserved.</p>
           <div className="flex gap-5">
-            <Link href="/Contact" className="hover:text-yellow-400 transition-colors">Privacy Policy</Link>
+            <Link href="/Privacy">Privacy Policy</Link>
             <Link href="/Contact" className="hover:text-yellow-400 transition-colors">Terms of Service</Link>
           </div>
         </div>
