@@ -64,59 +64,7 @@ export default function Footer() {
       {/* Top decorative line */}
       <div className="h-1 bg-gradient-to-r from-transparent via-yellow-500 to-transparent" />
 
-      {/* Newsletter Banner */}
-      <div className="bg-gradient-to-r from-yellow-500/10 via-yellow-400/5 to-yellow-500/10 border-b border-yellow-500/20 py-10 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-            Get Exclusive Travel Deals
-          </h3>
-          <p className="text-gray-400 mb-6 text-sm md:text-base">
-            Subscribe to our newsletter and be the first to know about special offers, new destinations, and travel tips.
-          </p>
-          {status === "success" ? (
-            <div className="flex items-center justify-center gap-2 text-green-400 font-semibold">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              Thank you! You&apos;re now subscribed.
-            </div>
-          ) : status === "duplicate" ? (
-            <div className="flex items-center justify-center gap-2 text-yellow-400 font-semibold">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              You&apos;re already subscribed!
-            </div>
-          ) : (
-            <>
-              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email address"
-                  required
-                  disabled={status === "loading"}
-                  className="flex-1 bg-white/5 border border-yellow-500/30 rounded-full px-5 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-400 text-sm disabled:opacity-60"
-                />
-                <button
-                  type="submit"
-                  disabled={status === "loading"}
-                  className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-6 py-3 rounded-full font-bold text-sm hover:from-yellow-300 hover:to-yellow-500 transition-all flex items-center justify-center gap-2 shadow-lg hover:scale-105 disabled:opacity-60 disabled:cursor-not-allowed"
-                >
-                  <Send className="w-4 h-4" />
-                  {status === "loading" ? "Subscribing..." : "Subscribe"}
-                </button>
-              </form>
-              {status === "error" && (
-                <p className="text-red-400 text-sm mt-2">Something went wrong. Please try again.</p>
-              )}
-            </>
-
-          )}
-        </div>
-      </div>
-
+    
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand Column */}
