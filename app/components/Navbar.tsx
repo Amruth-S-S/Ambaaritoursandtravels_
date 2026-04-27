@@ -60,7 +60,7 @@ export default function Navbar() {
         ambaaritoursandtravels19@gmail.com
       </a>
       <Link
-        href="/Privacy"
+        href="/privacy-policy"
         className="hidden md:flex items-center gap-1 hover:underline font-semibold"
       >
         <Shield className="w-3 h-3" />

@@ -12,7 +12,7 @@ const quickLinks = [
   { label: "Gallery", href: "/Gallery" },
   { label: "Contact", href: "/Contact" },
   { label: "Book Now", href: "/Booking" },
-   { label: "Privacy", href: "/Privacy" },
+   { label: "Privacy Policy", href: "/privacy-policy" },
 ];
 
 const internationalPackages = [
