@@ -197,7 +197,7 @@ export default function Footer() {
                 <div>
                   <p className="text-xs text-gray-500 mb-0.5">Visit Us</p>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                  Buliding ,4th Floor, 897/E, 80 Feet Rd, near Income Tax office, next to aarthi scan & lab, National Games Village Complex, 6th Block, Koramangala, Bengaluru, Karnataka 560095
+                  1st A Main Rd, 2nd Block, Govindaraja Nagar Ward, Mudalapalya, Nagarbhavi, Bengaluru, Karnataka 560072
                   </p>
                 </div>
               </a>
