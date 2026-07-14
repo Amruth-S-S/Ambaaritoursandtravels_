@@ -161,6 +161,7 @@ export default function AboutPage() {
     {
       id: 7,
       name: "Pavan S",
+      role: "Tour Coordinator",
       bio: "Ensures every traveler gets personalized attention and support."
     }
       
