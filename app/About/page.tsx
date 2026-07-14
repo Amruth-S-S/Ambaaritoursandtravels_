@@ -125,39 +125,45 @@ export default function AboutPage() {
     },
     {
       id: 2,
-      name: "Bhanushree",
-      // role: "Senior Travel Consultant",
+      name: "Manvitha R",
+      role: "Manager",
       // experience: "8+ years",
-      bio: "Specializes in North India tours and pilgrimage packages."
+      bio: "Skilled in strategic planning and team leadership."
     },
     {
       id: 3,
-      name: "Arun Krishna",
-      role: "Adventure Guide",
+      name: "Srinath",
+      role: "Video Editor",
       // experience: "6+ years",
-      bio: "Expert trekker and adventure sports specialist for Himalayan expeditions."
+      bio: "Expert in editing and content creation of all travel itineraries."
     },
     {
       id: 4,
-      name: "Sonvi ",
-      role: "Domestic Destination Expert",
+      name: "Shivaram M S",
+      role: "Domestic Team Head",
       // experience: "5+ years",
-      bio: "Ensures every traveler gets personalized attention and support."
+      bio: "Specializing in the domestic market, excels at aligning localized team strategies with broader corporate objectives."
     },
     {
       id: 5,
-      name: "Hanumath ",
-      role: "Content Creator , Video Editor",
+      name: "Akash R",
+      role: "International Team Head",
       // experience: "12+ years",
-      bio: "Expert in editing and content creation of all travel itineraries."
+      bio: "Driving cross-border initiatives and scaling high-performing, multicultural teams."
     },
-    // {
-    //   id: 6,
-    //   name: "Meera Krishnan",
-    //   role: "South India Specialist",
-    //   experience: "7+ years",
-    //   bio: "Deep knowledge of South Indian temples, culture, and heritage sites."
-    // }
+    {
+      id: 6,
+      name: "Vivin",
+      role: "Tour Coordinator",
+      // experience: "7+ years",
+      bio: "Ensures every traveler gets personalized attention and support."
+    },
+    {
+      id: 7,
+      name: "Tour Coordinator",
+      bio: "Ensures every traveler gets personalized attention and support."
+    }
+      
   ];
 
   const tabContent = {
