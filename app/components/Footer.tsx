@@ -17,9 +17,9 @@ const quickLinks = [
 
 const internationalPackages = [
   { label: "Thailand Tours", href: "/Packages?region=international" },
-  { label: "Europe Tours", href: "/Packages?region=international" },
-  { label: "Sri Lanka Tours", href: "/Packages?region=international" },
-  { label: "Turkey Tours", href: "/Packages?region=international" },
+  // { label: "Europe Tours", href: "/Packages?region=international" },
+  // { label: "Sri Lanka Tours", href: "/Packages?region=international" },
+  // { label: "Turkey Tours", href: "/Packages?region=international" },
 ];
 
 const domesticPackages = [
