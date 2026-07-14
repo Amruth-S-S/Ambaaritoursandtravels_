@@ -249,35 +249,35 @@ const packages = [
   //   category: "budget",
   //   tags: ["thailand", "super-budget", "no-flights", "flexible"]
   // },
-  {
-    id: 16,
-    title: "Thailand 4N/5D Without Flight Package",
-    description: "Complete Thailand experience without flights, covering Bangkok and Pattaya with comfortable accommodations and guided tours",
-    price: "₹25,999",
-    duration: "5 Days 4 Nights",
-    group: "Max 25 People",
-    highlight: "Popular",
-    image: "/Images/Thailand_4N-5D.png",
-    color: "from-blue-500 to-indigo-600",
-    places: ["Bangkok", "Pattaya", "Coral Island"],
-    inclusions: [
-      { icon: Hotel, text: "3-4 Star Hotels" },
-      { icon: Utensils, text: "Breakfast & Dinner" },
-      { icon: Users, text: "AC Transport" },
-      { icon: Ticket, text: "All Entry Fees" },
-    ],
-    details: [
-      "Golden Buddha & Wat Pho visit",
-      "Pattaya Walking Street",
-      "Coral Island tour with lunch",
-      "Alcazar Cabaret show",
-      "Elephant trekking (Optional)"
-    ],
-    region: "international",
-    country: "Thailand",
-    category: "beach",
-    tags: ["thailand", "no-flights", "complete-package"]
-  },
+  // {
+  //   id: 16,
+  //   title: "Thailand 4N/5D Without Flight Package",
+  //   description: "Complete Thailand experience without flights, covering Bangkok and Pattaya with comfortable accommodations and guided tours",
+  //   price: "₹25,999",
+  //   duration: "5 Days 4 Nights",
+  //   group: "Max 25 People",
+  //   highlight: "Popular",
+  //   image: "/Images/Thailand_4N-5D.png",
+  //   color: "from-blue-500 to-indigo-600",
+  //   places: ["Bangkok", "Pattaya", "Coral Island"],
+  //   inclusions: [
+  //     { icon: Hotel, text: "3-4 Star Hotels" },
+  //     { icon: Utensils, text: "Breakfast & Dinner" },
+  //     { icon: Users, text: "AC Transport" },
+  //     { icon: Ticket, text: "All Entry Fees" },
+  //   ],
+  //   details: [
+  //     "Golden Buddha & Wat Pho visit",
+  //     "Pattaya Walking Street",
+  //     "Coral Island tour with lunch",
+  //     "Alcazar Cabaret show",
+  //     "Elephant trekking (Optional)"
+  //   ],
+  //   region: "international",
+  //   country: "Thailand",
+  //   category: "beach",
+  //   tags: ["thailand", "no-flights", "complete-package"]
+  // },
 
   // Karnataka Local Packages
   // {
