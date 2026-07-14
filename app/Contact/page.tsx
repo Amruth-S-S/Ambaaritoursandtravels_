@@ -224,9 +224,9 @@ export default function ContactPage() {
                                         },
                                         {
                                             icon: MapPin,
-                                            title: "Our Offices",
+                                            title: "Our Office",
                                             items: [
-                                                "4th floor, No.879/e, next to Income tax office, 6th Block, Koramangala, Bengaluru, Karnataka 560034"
+                                                "1st A Main Rd, 2nd Block, Govindaraja Nagar Ward, Mudalapalya, Nagarbhavi, Bengaluru, Karnataka 560072"
                                             ]
                                         },
                                         {
@@ -235,13 +235,13 @@ export default function ContactPage() {
                                             items: [
                                                 "International Desk: 24/7",
                                                 "Local Desk: ",
-                                                "Mon-9AM-8PM",
-                                                "Tue-9AM-8PM",
-                                                "Wed-Holiday",
-                                                "Thu-9AM-8PM",
-                                                "Fri-9AM-8PM",
-                                                "Sat-9AM-8PM",
-                                                "Sund-10AM-7PM"
+                                                "Mon: 10AM-7PM",
+                                                "Tue: 10AM-7PM",
+                                                "Wed: Holiday",
+                                                "Thu: 10AM-7PM",
+                                                "Fri: 10AM-7PM",
+                                                "Sat: 10AM-7PM",
+                                                "Sun: 10AM-7PM"
                                             ]
                                         }
                                     ].map((contact, index) => (
