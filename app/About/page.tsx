@@ -121,7 +121,7 @@ export default function AboutPage() {
       name: "Sharath Naik H O",
       role: "Founder & CEO",
       // experience: "10+ years",
-      bio: "Passionate traveler with expertise in crafting unique experiences across India."
+      bio: "Passionate traveler with expertise in crafting unique experiences across world."
     },
     {
       id: 2,
