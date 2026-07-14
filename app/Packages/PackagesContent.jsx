@@ -170,7 +170,7 @@ const packages = [
     duration: "5 Days 4 Nights",
     group: "Max 25 People",
     highlight: "Best Value",
-    image: "/Images/Thailand_pattaya.png",
+    image: "/Images/THAILAND.jpeg",
     color: "from-teal-500 to-cyan-600",
     places: ["Pattaya", "Bangkok", "Coral Island", "Sanctuary of Truth"],
     inclusions: [
