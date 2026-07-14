@@ -160,7 +160,7 @@ export default function AboutPage() {
     },
     {
       id: 7,
-      name: "Tour Coordinator",
+      name: "Pavan S",
       bio: "Ensures every traveler gets personalized attention and support."
     }
       
