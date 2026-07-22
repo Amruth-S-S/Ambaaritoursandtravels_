@@ -151,19 +151,19 @@ export default function AboutPage() {
       // experience: "12+ years",
       bio: "Driving cross-border initiatives and scaling high-performing, multicultural teams."
     },
-    {
-      id: 6,
-      name: "Vivin",
-      role: "Tour Coordinator",
-      // experience: "7+ years",
-      bio: "Ensures every traveler gets personalized attention and support."
-    },
-    {
-      id: 7,
-      name: "Pavan S",
-      role: "Tour Coordinator",
-      bio: "Ensures every traveler gets personalized attention and support."
-    }
+    // {
+    //   id: 6,
+    //   name: "Vivin",
+    //   role: "Tour Coordinator",
+    //   // experience: "7+ years",
+    //   bio: "Ensures every traveler gets personalized attention and support."
+    // },
+    // {
+    //   id: 7,
+    //   name: "Pavan S",
+    //   role: "Tour Coordinator",
+    //   bio: "Ensures every traveler gets personalized attention and support."
+    // }
       
   ];
 
